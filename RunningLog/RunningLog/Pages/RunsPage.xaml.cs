@@ -9,13 +9,14 @@ using Xamarin.Forms;
 
 namespace RunningLog.Pages
 {
-    public partial class HomePage : ContentPage
+    public partial class RunsPage : ContentPage
     {
-        public HomePage()
+        public RunsPage()
         {
             InitializeComponent();
 
-            Title = AppResources.menu_HomePage;
+            Title = AppResources.menu_RunsPage;
+
         }
     }
 }
